@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/app.ts"
+    "start": "nodemon ./src/app.ts",
+    "ref": "ts-node ./src/ref.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "hbs": "^4.2.0"
   }
 }
